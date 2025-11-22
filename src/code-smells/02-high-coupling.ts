@@ -61,9 +61,9 @@ class UserSettings extends User {
     const userSettings = new UserSettings(
         '/urs/home',
         '/development',
-        'fernando@google.com',
+        'tony25@google.com',
         'F',
-        'Fernando',
+        'Tony',
         'Groglio',
         'M',
         new Date('1985-10-21')
