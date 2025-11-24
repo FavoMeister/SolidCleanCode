@@ -1,8 +1,10 @@
+import localPosts from  '../data/local-database.json';
+
 export class LocalDataBaseService {
 
     constructor() {}
 
-    async getFakePosts() {
+    async getFakePostsDatabase() {
         return [
             {
                 'userId': 1,
@@ -18,4 +20,11 @@ export class LocalDataBaseService {
             }]
     }
 
+}
+
+
+export class JsonDatabaseService {
+    async getPosts() {
+        return localPosts;
+    }
 }
